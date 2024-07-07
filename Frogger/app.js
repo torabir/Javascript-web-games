@@ -167,7 +167,6 @@ function win() {
         if (!nextGame) {
             nextGame = document.createElement("button");
             nextGame.setAttribute("id", "nextGameButton");
-            // Legger til en grunnleggende click event listener her, som vil oppdateres nedenfor basert på score
             const body = document.querySelector('body');
             body.appendChild(nextGame);
         }
@@ -177,18 +176,22 @@ function win() {
             resultDisplay.textContent = "'You win! Froggy Froggins restored peace to the realm.'";
             nextGame.innerText = "Teleport to level 2";
             nextGame.removeEventListener('click', resetGame); // Fjern resetGame hvis den tidligere var satt
-            nextGame.addEventListener('click', level2);
+            nextGame.addEventListener('click', () => {
+                level2();
+                nextGame.remove(); // Fjern knappen etter at den er trykket
+            });
         } else if (score === 2) {
             resultDisplay.textContent = "'You win! Froggy Froggins got away.'";
             nextGame.innerText = "Teleport back home";
             nextGame.removeEventListener('click', level2); // Fjern level2 for å unngå overlap
-            nextGame.addEventListener('click', resetGame); // Endre til resetGame
+            nextGame.addEventListener('click', () => {
+                resetGame();
+                nextGame.remove(); // Fjern knappen etter at den er trykket
+            });
         }
         console.log(score);
     }
 }
-
-
 
 function checkWinLose() {
     win()
