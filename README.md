@@ -1,6 +1,13 @@
 # Descrition: 
 
-3 small games for the web browser, created with JS, html and css. 
+4 classic small games intended for the web browser, created with JS, html and css. 
+
+Games: 
+
+- Frogger
+- Whack-a-mole
+- 2d-Breakout
+- Space Invaders
 
 # How to run: 
 
@@ -11,3 +18,6 @@
 
 - Just a fun way of learning to code.
 - Based on freeCodeCamp's youtube toturial: https://www.youtube.com/watch?v=ec8vSKJuZTk
+
+# Pictures: 
+
