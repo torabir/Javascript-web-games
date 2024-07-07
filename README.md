@@ -11,7 +11,7 @@ Games:
 
 # How to run: 
 
-- Download all files from the folder of the game that you want to play.
+- Download or fork all files from the folder of the game that you want to play.
 - Open the html-file in a web-browser. 
 
 # Additional notes
