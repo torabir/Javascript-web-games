@@ -1,6 +1,6 @@
 # Descrition: 
 
-3 small games created with JS, html and css. 
+3 small games for the web browser, created with JS, html and css. 
 
 # How to run: 
 
