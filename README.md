@@ -19,8 +19,6 @@ Games:
 - Just a fun way of learning to code.
 - Based on freeCodeCamp's youtube tutorial: https://www.youtube.com/watch?v=ec8vSKJuZTk
 
-# Pictures: 
-
 # Frogger
 
 ![Feature Overview](demo_images/frogger.png)
