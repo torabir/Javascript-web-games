@@ -17,7 +17,7 @@ Games:
 # Additional notes
 
 - Just a fun way of learning to code.
-- Based on freeCodeCamp's youtube toturial: https://www.youtube.com/watch?v=ec8vSKJuZTk
+- Based on freeCodeCamp's youtube tutorial: https://www.youtube.com/watch?v=ec8vSKJuZTk
 
 # Pictures: 
 
