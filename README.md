@@ -21,16 +21,16 @@ Games:
 
 # Pictures: 
 
-Frogger: 
+# Frogger: 
 
 ![Feature Overview](demo_images/frogger.png)
 
-2D-Breakout: 
+# 2D-Breakout: 
 
 ![Feature Overview](demo_images/2D-Breakout.png)
 
-Space Invaders: 
+# Space Invaders: 
 
-Wack-a-mole: 
+# Wack-a-mole: 
 
 ![Feature Overview](demo_images/wack-a-mole.png)
